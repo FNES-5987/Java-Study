@@ -13,6 +13,7 @@ public class MyService extends Thread {
     // 출력 횟수 및 일시정지 시간을 랜덤으로 처리함
     // landom = 랜덤
     // 아무 의미 없는 주석
+    // .
     @Override
     public void run() {
         for(int i = 1; i <= (int) (Math.random() * 1000); i++) {
